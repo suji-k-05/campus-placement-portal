@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #005f73;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 900px;
+            background: #0a9396;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            text-align: center;
+            color: #ee9b00;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #ee9b00;
+        }
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+        .left-column {
+            width: 35%;
+            padding-right: 20px;
+            border-right: 2px solid #ee9b00;
+        }
+        .right-column {
+            width: 65%;
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        h2 {
+            color: #ee9b00;
+            border-bottom: 2px solid #ee9b00;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        a {
+            color: #ee9b00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>{{firstname}} {{lastname}}</h1>
+            <p>{{description}}</p>
+        </div>
+        <div class="content">
+            <div class="left-column">
+                <div class="section">
+                    <h2>📞 Contact</h2>
+                    <p><strong>Email:</strong> {{email}}</p>
+                    <p><strong>Phone:</strong> {{mobilenumber}}</p>
+                    <p><strong>Alt:</strong> {{alternativenumber}}</p>
+                    <p><strong>Address:</strong> {{address}}</p>
+                </div>
+                <div class="section">
+                    <h2>🌍 Languages Known</h2>
+                    <ul>{{{language}}}</ul>
+                </div>
+                <div class="section">
+                    <h2>🔗 Links</h2>
+                    <p><strong>GitHub:</strong> <a href="{{github}}" target="_blank">{{github}}</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="{{linkedin}}" target="_blank">{{linkedin}}</a></p>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="section">
+                    <h2>🎓 Education</h2>
+                    <p><strong>{{collegename}}</strong> - {{degree}} ({{course}})</p>
+                    <p><strong>CGPA:</strong> {{cgpa}}</p>
+                </div>
+                <div class="section">
+                    <h2>🛠️ Skills</h2>
+                    <ul>{{{skills}}}</ul>
+                </div>
+                <div class="section">
+                    <h2>🚀 Projects</h2>
+                    <ul>{{{Projects}}}</ul>
+                </div>
+                <div class="section">
+                    <h2>💼 Internship</h2>
+                    <ul>{{{Internship}}}</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

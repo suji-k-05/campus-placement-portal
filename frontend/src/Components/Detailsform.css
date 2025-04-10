@@ -1,0 +1,22 @@
+.details-form-container {
+    margin-left: 30px;
+}
+
+.photo-btn{
+    width: 100px;
+}
+
+.back-btn{
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+    background-color: blanchedalmond;
+    margin-left: 80%;
+  }
+
+  .back-btn:hover{
+    color: white;
+  }

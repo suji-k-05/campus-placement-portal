@@ -1,0 +1,68 @@
+.cmpnyinfo{
+    margin-top: 70px;
+}
+
+
+.cmpnydet {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+  
+  
+  .cmpnybar {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: "Poppins", serif;
+  }
+  
+  
+  .cmpnyimg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .cmpncontent {
+    flex: 2;
+    margin-left: 15px;
+  }
+  
+  .cmpnyinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Reduced spacing */
+    align-items: center; /* Centers all bars */
+    justify-content: space-between;
+  }
+
+.eligibility{
+  color: #308fce;
+  font-family: "Poppins", serif;
+}
+  
+.delete-button{
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background: #308fce;
+  font-family: "Poppins", serif;
+  color: white;
+}
+  

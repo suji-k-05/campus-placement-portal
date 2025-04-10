@@ -1,0 +1,67 @@
+.firstname{
+    height: 70px;
+    width: 95%;
+    background: linear-gradient(to right,rgb(129, 129, 194) , rgb(0, 0, 0));
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black; 
+    display: flex;
+    place-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.view{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #1989cf;
+    border: none;
+    font-family: "Poppins", serif;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.sname{
+    color: #002855;
+}
+
+#studentssearch{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins", serif;
+    height: 33px;
+    width: 330px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    border: solid 1px #333;
+}
+
+#search{
+    margin-left: 70%;
+}
+
+#search-btn{
+    font-family: "Poppins", serif;
+    height: 33px;
+    width: 80px;
+    border-radius: 5px;
+    border: solid 1px #333;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #1989cf;
+    color: white;
+}
+
+#search-btn:hover{
+    background-color: #333;
+}

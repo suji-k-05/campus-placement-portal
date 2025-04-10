@@ -1,0 +1,128 @@
+.loginform{
+    background: url('../Components/assets/Formbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 340px;
+    align-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 2%;
+    margin-left: 33%;
+    animation: fadein 0.5s linear 1;
+    box-shadow: 8px 8px 10px black;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.lemail{
+    display: flex;
+    align-items: center;
+    animation: mailin 0.5s linear 1 ;
+}
+
+@keyframes mailin{
+    0%{
+        opacity: 0.6;
+        transform: translateY(-50px);
+    }
+    50%{
+        opacity: 0.8;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.lpass{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    animation: passin 0.5s linear 1 ;
+    
+}
+
+@keyframes passin{
+
+    0%{
+        opacity: 0.8;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+.img2,.img3{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: solid 1px #333;
+    align-content: center;
+    padding: 1px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.image{
+    height: 20px;
+    display: flex;
+    margin-bottom: 25px;
+    border-radius: none;
+    margin: 5px;
+}
+
+
+#password,#lemail{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: solid 1px #333;
+}
+
+#loginbtn{
+    height: 40px;
+    width: 340px;
+    font-family: "Poppins", serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #1989cf;
+    color: white;
+    margin-top: 20px;
+    animation: popup 0.5s linear 1;
+}
+
+#loginbtn:hover{
+    background-color: #094063;
+}
+
+
+
+.ltop{
+    color: #1989cf;
+    margin-left: 45%;
+    margin-top: 5%;
+}

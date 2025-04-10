@@ -1,0 +1,200 @@
+.register{
+    margin-left: 28%;
+    margin-bottom: 50px;
+}
+
+.head{
+    color: #308fce;
+    text-align: center;
+}
+
+label{
+    font-family: "Poppins", serif;
+    line-height: 30px;
+}
+
+#name,#dob,#clg,#cgpa,#interest{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+}
+
+#anum,#linkedin{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+#lname{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+}
+
+#link{
+    margin-left: 195px;
+}
+
+#num{
+    margin-left: 310px;
+}
+
+#git{
+    margin-left: 300px;
+}
+
+#mail{
+    margin-left: 260px;
+}
+
+
+#cour{
+    margin-left: 32px;
+}
+
+#female,#male{
+    margin-left: 20px;
+}
+
+#femalel{
+    margin-left: 50px;
+}
+
+#number{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+#github{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+    margin-left: 145px;
+}
+
+#email{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+    margin-left: 33px;
+}
+
+#course{
+    font-family: "Poppins", serif;
+    height: 33px;
+    width: 233px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#deg{
+    font-family: "Poppins", serif;
+    height: 33px;
+    width: 70px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+    margin-bottom: 25px;
+    margin-right:10px ;
+}
+
+#resume{
+    height: 33px;
+    font-family: "Poppins", serif;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #308fce;
+    color: white;
+    font-family: "Poppins", serif;
+    border: none;
+    /* padding: 10px 20px; */
+    height:35px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 4px;
+   
+  }
+
+
+
+#address{
+    font-family: "Poppins", serif;
+    height: 70px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #333;
+}
+
+h2{
+    font-family: "Poppins", serif;
+    color: #308fce;
+}
+
+
+
+#language{
+    margin-left: 5px;
+}
+
+
+
+input:hover{
+    cursor: pointer;
+}
+
+#applybtn{
+    margin-left:20%;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    font-family: "Poppins", serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #1989cf;
+    color: white;
+}
+
+#applybtn:hover{
+    background-color: rgb(40, 206, 40);
+}

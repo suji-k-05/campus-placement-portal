@@ -1,0 +1,221 @@
+.signupform{
+    background: url('../Components/assets/Formbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 350px;
+    align-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 2%;
+    margin-left: 33%;
+    animation: fadein 0.5s linear 1;
+    box-shadow: 8px 8px 10px black;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0.6;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.name{
+    display: flex;
+    align-items: center;
+    animation: namein 0.3s linear 1;
+}
+
+@keyframes namein{
+    0%{
+        opacity: 0.6;
+        transform: translateY(-60px);
+    }
+    50%{
+        opacity: 0.8;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.mail,.registernumber{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    animation: mailin 0.5s linear 1 ;
+}
+
+@keyframes mailin{
+
+    0%{
+        opacity: 0.8;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.spass{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    animation: passin 0.7s linear 1 ;
+}
+
+@keyframes passin{
+
+    0%{
+        opacity: 0.8;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.img1{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: solid 1px #333;
+    align-content: center;
+    padding: 1px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.img2{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: solid 1px #333;
+    align-content: center;
+    padding: 1px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.img3{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: solid 1px #333;
+    align-content: center;
+    padding: 1px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.img4{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: solid 1px #333;
+    align-content: center;
+    padding: 1px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.image{
+    height: 20px;
+    display: flex;
+    margin-bottom: 25px;
+    border-radius: none;
+    margin: 5px;
+}
+
+#username{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: none;
+}
+
+
+#emailaddress,#registartion{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: none;
+}
+
+#password{
+    font-family: "Poppins", serif;
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+    border: none;
+}
+
+#signupbtn{
+    height: 40px;
+    width: 340px;
+    font-family: "Poppins", serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #1989cf;
+    color: white;
+    margin-top: 20px;
+    animation: popup 1s linear 1;
+    
+}
+
+@keyframes popup{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#signupbtn:hover{
+    background-color: #094063;
+}
+
+.stop{
+    color: #1989cf;
+    margin-left: 45%;
+    margin-top: 5%;
+}
